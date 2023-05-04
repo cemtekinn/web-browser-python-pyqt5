@@ -61,11 +61,11 @@ class AnaEkran (QMainWindow):
 #    *  __init__ metodu içine butonlar eklenip fonksiyonlar çağrılmalıdır
 #    !! Geliştirmek isteyenler için yapılacak listesi:
 #           * Ayarlar Menusu(Geçmiş-Ana Ekranı Değiştirme-Yeni Sekme-Yer İşaretleri)
-#           * Sayfayı sekmelere ayırma
+#           * Sayfaları, sekmelere ayırma
 
 
 Tarayıcı=QApplication(sys.argv)
-QApplication.setApplicationName("MÜQ Web Tarayıcı")
+QApplication.setApplicationName("Dünyanın En Kötü Web Tarayıcısı")
 ekran=AnaEkran()
 Tarayıcı.exec_()
 # pip3 install pyqt5-tools
